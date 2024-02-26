@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+}
+
+.god{
+    
+    margin-top: 400px;
+    margin-left: 800px;
+    cursor: pointer;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 5px;
+    border-color: burlywood;
+    padding: 15px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:hover.god{
+    background-color: aqua;
+    border-color: aqua;
+}
+
+#bur{
+    display: none;
+    margin-top: 30px;
+    margin-left: 790px;
+    margin-right: 985px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    
+    border-radius: 5px;
+    font-style: normal;
+    font-size: larger;
+    padding: 10px;
+    border: 1px solid red;
+
+}
