@@ -3,22 +3,27 @@ html{
 }
 
 *{
-    background-color: black;
     box-sizing: border-box;
 }
+
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+}
+
 .class{
     position: absolute;
-    top: 45%;
-    left: 45%;
     padding: 10px;
-    vertical-align: middle;
 }
 .god{
     align-items: center;
     position: relative;
     width: 150px;
-    height: 70px;
-    vertical-align: middle ;
+    height: 70px; 
     cursor: pointer;
     text-align: center;
     background-color: burlywood;
